@@ -1,15 +1,19 @@
 {
-  "name": "shayan-project-01",
+  "name": "simple-calculator-sh",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple calculator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "shayan ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^9.2.16"
+  },
   "devDependencies": {
-    "@types/node": "^20.11.24"
+    "@types/inquirer": "^9.0.7"
   }
 }
